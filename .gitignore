@@ -1,33 +1,25 @@
-
-# Terraform local files
-.terraform/
+# Terraform
+**/.terraform/*
 *.tfstate
 *.tfstate.*
-crash.log
-crash.*.log
+*.tfstate.backup
 *.tfplan
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
+*.tfvars
+*.tfvars.json
+crash.log
 
-# Credentials and secrets
+# Terraform lock file is intentionally tracked
+# Keep terraform/.terraform.lock.hcl in Git
+
+# AWS credentials and private keys
+.aws/
 .env
-.env.*
-!.env.example
 *.pem
 *.key
 credentials
-.aws/
-secrets/
 
-# Local variables
-terraform.tfvars
-terraform.tfvars.json
-*.auto.tfvars
-*.auto.tfvars.json
+# Private evidence
+evidence/
 
-# Editor and operating system files
-.vscode/
-.DS_Store
-Thumbs.db
+# Local Git installation
+/Git/

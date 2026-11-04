@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "S3_DATA_EVENTS",
+    "Status": "DISABLED"
+  },
+  {
+    "Name": "EKS_AUDIT_LOGS",
+    "Status": "DISABLED"
+  },
+  {
+    "Name": "EBS_MALWARE_PROTECTION",
+    "Status": "DISABLED"
+  },
+  {
+    "Name": "RDS_LOGIN_EVENTS",
+    "Status": "DISABLED"
+  },
+  {
+    "Name": "LAMBDA_NETWORK_LOGS",
+    "Status": "DISABLED"
+  }
+]
