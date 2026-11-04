@@ -41,7 +41,7 @@ The goal was to build practical experience monitoring AWS account activity, inve
 
 ### 2. GuardDuty Threat Detection
 
-- Enabled GuardDuty in the `us-east-1` region.
+- Enabled GuardDuty in the us-east-1 region.
 - Enabled CloudTrail, DNS log, and VPC Flow Logs protection features.
 - Generated a synthetic GuardDuty sample finding.
 - Retrieved and analyzed the finding using AWS CLI.
