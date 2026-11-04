@@ -80,17 +80,17 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 - Enabled multi-factor authentication (MFA).
 - Tested a new sign-in and confirmed that an MFA challenge was presented.
 
-  <table>
+<table>
   <tr>
-    <td align="center">
-      <img src="images/MFA1_before.png" width="400">
-      <br>
+    <td align="center" width="50%">
       <strong>Before: MFA Not Required</strong>
+      <br><br>
+      <img src="images/MFA1_before.png" width="350">
     </td>
-    <td align="center">
-      <img src="images/MFA2_after.png" width="400">
-      <br>
+    <td align="center" width="50%">
       <strong>After: MFA Enabled</strong>
+      <br><br>
+      <img src="images/MFA2_after.png" width="350">
     </td>
   </tr>
 </table>
