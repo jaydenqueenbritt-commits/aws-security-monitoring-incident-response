@@ -80,6 +80,10 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 - Enabled multi-factor authentication (MFA).
 - Tested a new sign-in and confirmed that an MFA challenge was presented.
 
+<p>
+Initially, my AWS IAM Identity Center sign-in process did not require multi-factor authentication (MFA), which could increase the risk of unauthorized account access if credentials were compromised. I updated the configuration to require MFA, adding an extra layer of security, and verified the change by signing in again and confirming that an MFA challenge was presented.
+</p>
+
 <table>
   <tr>
     <td align="center" width="50%">
