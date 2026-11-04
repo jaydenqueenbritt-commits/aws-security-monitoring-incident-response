@@ -80,6 +80,21 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 - Enabled multi-factor authentication (MFA).
 - Tested a new sign-in and confirmed that an MFA challenge was presented.
 
+  <table>
+  <tr>
+    <td align="center">
+      <img src="images/MFA1_before.png" width="400">
+      <br>
+      <strong>Before: MFA Not Required</strong>
+    </td>
+    <td align="center">
+      <img src="images/MFA2_after.png" width="400">
+      <br>
+      <strong>After: MFA Enabled</strong>
+    </td>
+  </tr>
+</table>
+
 ### 6. Incident Response Exercise
 
 **Scenario:** GuardDuty generated a synthetic finding indicating that an EC2 instance had an unprotected port being probed.
