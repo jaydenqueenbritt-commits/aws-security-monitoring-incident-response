@@ -39,6 +39,17 @@ The goal was to build practical experience monitoring AWS account activity, inve
 - Enabled management event logging and log file validation.
 - Verified that CloudTrail logs were delivered successfully.
 
+  ## Terraform Infrastructure Deployment
+
+Terraform was used to provision and manage the AWS security monitoring infrastructure. The following screenshots demonstrate the deployment and resources managed through Terraform.
+
+<table>
+  <tr>
+    <td><img src="images/terraform-deployment.png" width="400"></td>
+    <td><img src="images/terraform-resources.png" width="400"></td>
+  </tr>
+</table>
+
 ### 2. GuardDuty Threat Detection
 
 - Enabled GuardDuty in the **us-east-1** region.
