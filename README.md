@@ -41,7 +41,7 @@ The goal was to build practical experience monitoring AWS account activity, inve
 
 ### 2. GuardDuty Threat Detection
 
-- Enabled GuardDuty in the us-east-1 region.
+- Enabled GuardDuty in the **us-east-1** region.
 - Enabled CloudTrail, DNS log, and VPC Flow Logs protection features.
 - Generated a synthetic GuardDuty sample finding.
 - Retrieved and analyzed the finding using AWS CLI.
@@ -58,7 +58,7 @@ The goal was to build practical experience monitoring AWS account activity, inve
 
 - Retrieved recent AWS management events.
 - Identified EC2 and GuardDuty API activity.
-- Examined a detailed `DescribeSecurityGroups` event.
+- Examined a detailed **DescribeSecurityGroups** event.
 - Reviewed the event identity, timestamp, source IP, user agent, request parameters, and TLS information.
 - Confirmed that the inspected operation was read-only.
 
