@@ -120,17 +120,6 @@ Evidence and Terraform state files should remain private unless reviewed and san
 - Incident response documentation
 - Git and GitHub
 
-## Security and Cost Considerations
-
-- Used a cost-conscious approach by avoiding unnecessary AWS resources.
-- Kept optional GuardDuty features disabled when they were not needed for the lab.
-- Configured a 30-day CloudTrail S3 lifecycle policy.
-- Created a $5 monthly AWS budget alert.
-- Used read-only commands for security group and CloudTrail investigations.
-- Avoided publishing credentials, Terraform state, and unredacted evidence.
-
-**Note:** An AWS budget alert is a notification, not a spending limit. AWS services may still incur charges.
-
 ## Project Outcome
 
 This project provided hands-on experience configuring AWS security monitoring services, investigating cloud activity, reviewing access controls, and documenting incident response procedures. It strengthened practical skills in AWS, Terraform, PowerShell, and cloud security operations.
