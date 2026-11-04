@@ -73,7 +73,7 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 - Reviewed the event identity, timestamp, source IP, user agent, request parameters, and TLS information.
 - Confirmed that the inspected operation was read-only.
 
-### 5. Identity and Access Security
+### 5. Identity and Access Security (Multi-Factor Authentication)
 
 - Configured AWS IAM Identity Center.
 - Used an assumed role to access AWS.
