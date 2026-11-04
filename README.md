@@ -46,7 +46,7 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 <table>
   <tr>
     <td><img src="images/terraform-deployment1.png" width="400"></td>
-    <td><img src="images/terraform-resources2.png" width="400"></td>
+    <td><img src="images/terraform-deployment2.png" width="400"></td>
   </tr>
 </table>
 
