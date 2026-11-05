@@ -69,6 +69,13 @@ Analyzed AWS management events using CloudTrail and AWS CLI, reviewed API activi
 - Enabled management event logging and log file validation.
 - Verified that CloudTrail logs were delivered successfully.
 
+  <h4>CloudTrail Operational Status Verification</h4>
+<p>This screenshot shows the AWS CLI output from <code>aws cloudtrail get-trail-status</code>, confirming the live operational status of the CloudTrail trail. This verification demonstrates that the logging configuration is functioning as intended and supports reliable security monitoring and incident investigations.</p>
+
+<p align="center">
+  <img src="images/cloudtrail_event.png" width="750" alt="CloudTrail operational status verification using AWS CLI">
+</p>
+
   ## Terraform Infrastructure Deployment
 
 Terraform was used to provision and manage the AWS security monitoring infrastructure. The following screenshots demonstrate the deployment and resources managed through Terraform.
