@@ -132,6 +132,14 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
   <img src="images/guardduty-root-credential-details.png" width="750" alt="Detailed GuardDuty root credential usage finding">
 </p>
 
+<h4>GuardDuty Security Summary Dashboard</h4>
+
+<p>This screenshot shows the Amazon GuardDuty Summary dashboard, providing an overview of the security findings detected in the AWS environment. It displays finding severity, affected resources, and overall security activity, demonstrating how GuardDuty provides centralized visibility into potential threats.</p>
+
+<p align="center">
+  <img src="images/guardduty-summary-dashboard_1.png" width="750" alt="Amazon GuardDuty security summary dashboard overview">
+</p>
+
 ### 3. Security Group Assessment
 
 - Inspected the default EC2 security group.
