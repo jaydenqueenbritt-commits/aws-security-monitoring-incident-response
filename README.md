@@ -103,6 +103,12 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 - Reviewed the event identity, timestamp, source IP, user agent, request parameters, and TLS information.
 - Confirmed that the inspected operation was read-only.
 
+**CloudTrail Event History**
+
+<p align="center">
+  <img src="images/cloudtrail_event.png" width="750" alt="AWS CloudTrail Event History">
+</p>
+
 ### 5. Identity and Access Security
 
 - Configured AWS IAM Identity Center.
