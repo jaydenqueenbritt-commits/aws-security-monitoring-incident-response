@@ -73,7 +73,7 @@ Analyzed AWS management events using CloudTrail and AWS CLI, reviewed API activi
 <p>This screenshot shows the AWS CLI output from **aws cloudtrail get-trail-status**, confirming the live operational status of the CloudTrail trail. This verification demonstrates that the logging configuration is functioning as intended and supports reliable security monitoring and incident investigations.</p>
 
 <p align="center">
-  <img src="images/cloudtrail_event.png" width="750" alt="CloudTrail operational status verification using AWS CLI">
+  <img src="images/cloudtrail_operational.png" width="750" alt="CloudTrail operational status verification using AWS CLI">
 </p>
 
   ## Terraform Infrastructure Deployment
