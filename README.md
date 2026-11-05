@@ -102,13 +102,14 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 - Reviewed the event identity, timestamp, source IP, user agent, request parameters, and TLS information.
 - Confirmed that the inspected operation was read-only.
 
-### 5. Identity and Access Security (Multi-Factor Authentication)
+### 5. Identity and Access Security
 
 - Configured AWS IAM Identity Center.
 - Used an assumed role to access AWS.
 - Enabled multi-factor authentication (MFA).
 - Tested a new sign-in and confirmed that an MFA challenge was presented.
 
+<h3>Multi-Factor Authentication (MFA) Implementation</h3>
 <p>
 Initially, my AWS IAM Identity Center sign-in process did not require multi-factor authentication (MFA), which could increase the risk of unauthorized account access if credentials were compromised. I updated the configuration to require MFA, adding an extra layer of security, and verified the change by signing in again and confirming that an MFA challenge was presented.
 </p>
