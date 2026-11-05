@@ -24,7 +24,7 @@ Reviewed EC2 security group rules, configured <strong>AWS IAM Identity Center MF
 Analyzed AWS management events using CloudTrail and AWS CLI, reviewed API activity and identity information, and investigated a <strong>synthetic GuardDuty finding</strong>. Verified log delivery across multiple AWS regions, assessed network access controls, and documented incident response recommendations.
 </p>
 
-<h3>Security Objectives</h3>
+<h3>Objectives</h3>
 
 <ul>
 <li><strong>Network Security:</strong> Assess inbound and outbound traffic permissions.</li>
