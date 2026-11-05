@@ -122,9 +122,9 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
   <img src="images/guardduty-updated-configuration.png" width="750" alt="Updated GuardDuty detector configuration">
 </p>
 
-<h4>GuardDuty Root Credential Finding – Detailed Investigation</h4>
+<h4>GuardDuty Root Credential Finding</h4>
 
-<p>This screenshot displays the detailed GuardDuty finding for <code>Policy:IAMUser/RootCredentialUsage</code>, indicating that the AWS account root credentials were used to invoke the <code>ListManagedNotificationEvents</code> API operation in the <code>us-east-1</code> region. GuardDuty recorded 18 occurrences between 10:37 and 10:42, with a low severity rating. The activity originated from source IP address <code>199.111.113.142</code>, which should be compared against the public IP address used during the AWS session to determine whether the activity was authorized.</p>
+<p>This screenshot displays the detailed GuardDuty finding for Policy:IAMUser/RootCredentialUsage, indicating that the AWS account root credentials were used to invoke the ListManagedNotificationEvents API operation in the us-east-1 region. GuardDuty recorded 18 occurrences between 10:37 and 10:42, with a low severity rating. The activity originated from source IP address 199.111.113.142, which should be compared against the public IP address used during the AWS session to determine whether the activity was authorized.</p>
 
 <p>The finding demonstrates the security risk of using root credentials for routine AWS operations because the root account has extensive account-level privileges. Although the low severity rating does not establish an account compromise, repeated root credential usage creates a security concern that requires investigation. This finding highlights the importance of restricting root account usage, enabling MFA, monitoring privileged activity, and using IAM roles or IAM Identity Center for everyday AWS access.</p>
 
