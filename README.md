@@ -134,7 +134,6 @@ aws-security-lab/
 └── README.md
 ```
 
-Evidence and Terraform state files should remain private unless reviewed and sanitized for publication.
 
 ## Skills Demonstrated
 
