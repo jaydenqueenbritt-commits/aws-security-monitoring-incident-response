@@ -70,7 +70,7 @@ Analyzed AWS management events using CloudTrail and AWS CLI, reviewed API activi
 - Verified that CloudTrail logs were delivered successfully.
 
   <h4>S3 Bucket Verification</h4>
-<p>This screenshot shows the AWS CLI output from <strong>aws s3api list-buckets<strong>, verifying that the S3 bucket provisioned by Terraform exists and is available to store CloudTrail logs.</p>
+<p>This screenshot shows the AWS CLI output from aws s3api list-buckets, verifying that the S3 bucket provisioned by Terraform exists and is available to store CloudTrail logs.</p>
 
 <p align="center">
   <img src="images/s3-bucket-verification.png" width="750" alt="S3 bucket verification using AWS CLI">
