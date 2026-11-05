@@ -162,7 +162,7 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 <p>This screenshot shows the output of <code>aws cloudtrail lookup-events</code>, filtered for <code>ListBuckets</code>, identifying an S3 API event performed by the AWS Resource Explorer service-linked role rather than a direct user action. This demonstrates how CloudTrail helps identify the source and identity behind AWS activity.</p>
 
 <p align="center">
-  <img src="images/cloudtrail-list-buckets-event.png" width="750" alt="CloudTrail ListBuckets event investigation">
+  <img src="images/cloudtrail-s3-log-delivery.png" width="750" alt="CloudTrail ListBuckets event investigation">
 </p>
 
 ### 5. Identity and Access Security
