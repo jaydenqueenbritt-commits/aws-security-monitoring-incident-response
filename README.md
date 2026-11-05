@@ -115,6 +115,12 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
   <img src="images/guardduty-detector-verification.png" width="750" alt="GuardDuty detector configuration verified using AWS CLI">
 </p>
 
+<h4>GuardDuty Configuration Update Verification</h4>
+<p>This screenshot shows the updated output of <code>aws guardduty get-detector</code>, confirming changes to the detector's data source configuration. S3 logs, Kubernetes audit logs, and EBS malware protection were disabled, while CloudTrail, DNS logs, and VPC Flow Logs remained enabled. Comparing both outputs demonstrates how I used the AWS CLI to verify security monitoring configurations and validate changes.</p>
+
+<p align="center">
+  <img src="images/guardduty-updated-configuration.png" width="750" alt="Updated GuardDuty detector configuration">
+</p>
 
 ### 3. Security Group Assessment
 
