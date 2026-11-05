@@ -40,6 +40,7 @@ Analyzed AWS management events using CloudTrail and AWS CLI, reviewed API activi
 </ul>
 
 ## Technologies Used
+<hr style="border: 2px solid black;">
 
 - Amazon Web Services (AWS)
 - AWS CloudTrail
