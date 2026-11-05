@@ -7,24 +7,28 @@ This project demonstrates the implementation of AWS security monitoring and inci
 The goal was to build practical experience monitoring AWS account activity, investigating security findings, reviewing network access controls, and documenting incident response procedures.
 
 <h3>Security Issues & Risk Assessment</h3>
+<hr>
 
 <p>
 The initial AWS environment presented several security risks, including <strong>unrestricted outbound network traffic</strong>, potential <strong>EC2 security group misconfigurations</strong>, insufficient visibility into AWS account activity, and a lack of enforced <strong>Multi-Factor Authentication (MFA)</strong>. These weaknesses increased exposure to unauthorized access, credential compromise, unnecessary network exposure, and delayed threat detection.
 </p>
 
 <h3>Security Controls & Remediation</h3>
+<hr>
 
 <p>
 Reviewed EC2 security group rules, configured <strong>AWS IAM Identity Center MFA</strong>, deployed <strong>multi-region CloudTrail logging</strong>, centralized audit logs in <strong>Amazon S3</strong>, and enabled log file validation. Evaluated <strong>Amazon GuardDuty</strong> threat detection capabilities to improve security monitoring.
 </p>
 
 <h3>Investigation & Validation</h3>
+<hr>
 
 <p>
 Analyzed AWS management events using CloudTrail and AWS CLI, reviewed API activity and identity information, and investigated a <strong>synthetic GuardDuty finding</strong>. Verified log delivery across multiple AWS regions, assessed network access controls, and documented incident response recommendations.
 </p>
 
 <h3>Objectives</h3>
+<hr>
 
 <ul>
 <li><strong>Network Security:</strong> Assess inbound and outbound traffic permissions.</li>
