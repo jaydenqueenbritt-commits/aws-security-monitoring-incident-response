@@ -70,21 +70,21 @@ Analyzed AWS management events using CloudTrail and AWS CLI, reviewed API activi
 - Verified that CloudTrail logs were delivered successfully.
 
   <h4>S3 Bucket Verification</h4>
-<p>This screenshot shows the AWS CLI output from **aws s3api list-buckets**, verifying that the S3 bucket provisioned by Terraform exists and is available to store CloudTrail logs.</p>
+<p>This screenshot shows the AWS CLI output from <strong>aws s3api list-buckets<strong>, verifying that the S3 bucket provisioned by Terraform exists and is available to store CloudTrail logs.</p>
 
 <p align="center">
   <img src="images/s3-bucket-verification.png" width="750" alt="S3 bucket verification using AWS CLI">
 </p>
 
 <h4>CloudTrail Log Delivery Verification</h4>
-<p>This screenshot shows the output of **aws s3 ls --recursive**, confirming that CloudTrail is successfully delivering log files to the designated Amazon S3 bucket under the **AWSLogs/** path. This validates the end-to-end logging pipeline and ensures AWS activity records are being stored for security monitoring and future investigations.</p>
+<p>This screenshot shows the output of <strong>aws s3 ls --recursive<strong>, confirming that CloudTrail is successfully delivering log files to the designated Amazon S3 bucket under the <strong>AWSLogs/<strong> path. This validates the end-to-end logging pipeline and ensures AWS activity records are being stored for security monitoring and future investigations.</p>
 
 <p align="center">
   <img src="images/cloudtrail-s3-log-delivery.png" width="750" alt="CloudTrail log files stored in Amazon S3">
 </p>
 
   <h4>CloudTrail Operational Status Verification</h4>
-<p>This screenshot shows the AWS CLI output from **aws cloudtrail get-trail-status**, confirming the live operational status of the CloudTrail trail. This verification demonstrates that the logging configuration is functioning as intended and supports reliable security monitoring and incident investigations.</p>
+<p>This screenshot shows the AWS CLI output from <strong>aws cloudtrail get-trail-status<strong>, confirming the live operational status of the CloudTrail trail. This verification demonstrates that the logging configuration is functioning as intended and supports reliable security monitoring and incident investigations.</p>
 
 <p align="center">
   <img src="images/cloudtrail_operational.png" width="750" alt="CloudTrail operational status verification using AWS CLI">
