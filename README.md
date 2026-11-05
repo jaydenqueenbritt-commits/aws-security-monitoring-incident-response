@@ -76,6 +76,14 @@ Analyzed AWS management events using CloudTrail and AWS CLI, reviewed API activi
   <img src="images/s3-bucket-verification.png" width="750" alt="S3 bucket verification using AWS CLI">
 </p>
 
+<h4>CloudTrail Digest File Verification</h4>
+
+<p>This screenshot shows CloudTrail digest files stored in the Amazon S3 bucket across multiple AWS regions, demonstrating that log file integrity validation is generating digest records to support the verification of delivered audit logs.</p>
+
+<p align="center">
+  <img src="images/cloudtrail-digest-verification.png" width="750" alt="CloudTrail digest files stored in Amazon S3">
+</p>
+
 <h4>CloudTrail Log Delivery Verification</h4>
 <p>This screenshot shows the output of <strong>aws s3 ls --recursive<strong>, confirming that CloudTrail is successfully delivering log files to the designated Amazon S3 bucket under the <strong>AWSLogs/<strong> path. This validates the end-to-end logging pipeline and ensures AWS activity records are being stored for security monitoring and future investigations.</p>
 
