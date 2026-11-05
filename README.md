@@ -103,7 +103,7 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 
 ### 2. GuardDuty Threat Detection
 
-- Enabled GuardDuty in the **us-east-1** region.
+- Enabled GuardDuty in the <strong>us-east-1<strong> region.
 - Enabled CloudTrail, DNS log, and VPC Flow Logs protection features.
 - Generated a synthetic GuardDuty sample finding.
 - Retrieved and analyzed the finding using AWS CLI.
@@ -116,7 +116,7 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 </p>
 
 <h4>GuardDuty Configuration Update Verification</h4>
-<p>This screenshot shows the updated output of <code>aws guardduty get-detector</code>, confirming changes to the detector's data source configuration. S3 logs, Kubernetes audit logs, and EBS malware protection were disabled, while CloudTrail, DNS logs, and VPC Flow Logs remained enabled. Comparing both outputs demonstrates how I used the AWS CLI to verify security monitoring configurations and validate changes.</p>
+<p>This screenshot shows the updated output of <strong>aws guardduty get-detector<strong>, confirming changes to the detector's data source configuration. S3 logs, Kubernetes audit logs, and EBS malware protection were disabled, while CloudTrail, DNS logs, and VPC Flow Logs remained enabled. Comparing both outputs demonstrates how I used the AWS CLI to verify security monitoring configurations and validate changes.</p>
 
 <p align="center">
   <img src="images/guardduty-updated-configuration.png" width="750" alt="Updated GuardDuty detector configuration">
