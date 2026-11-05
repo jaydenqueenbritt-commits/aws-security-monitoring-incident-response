@@ -105,9 +105,13 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 
 **CloudTrail Event History**
 
+<p>CloudTrail Event History is important to this lab because it provides an audit trail of AWS activity, allowing me to identify API actions, investigate suspicious behavior, and support incident response through detailed event records.</p>
+
 <p align="center">
   <img src="images/cloudtrail_event.png" width="750" alt="AWS CloudTrail Event History">
 </p>
+
+<p>This screenshot shows CloudTrail Event History, providing visibility into AWS account activity by recording API events that support security monitoring and investigation.</p>
 
 ### 5. Identity and Access Security
 
