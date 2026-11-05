@@ -85,7 +85,7 @@ Analyzed AWS management events using CloudTrail and AWS CLI, reviewed API activi
 </p>
 
 <h4>CloudTrail Log Delivery Verification</h4>
-<p>This screenshot shows the output of aws s3 ls --recursive, confirming that CloudTrail is successfully delivering log files to the designated Amazon S3 bucket under the <strong>AWSLogs/<strong> path. This validates the end-to-end logging pipeline and ensures AWS activity records are being stored for security monitoring and future investigations.</p>
+<p>This screenshot shows the output of aws s3 ls --recursive, confirming that CloudTrail is successfully delivering log files to the designated Amazon S3 bucket under the AWSLogs/ path. This validates the end-to-end logging pipeline and ensures AWS activity records are being stored for security monitoring and future investigations.</p>
 
 <p align="center">
   <img src="images/cloudtrail-s3-log-delivery.png" width="750" alt="CloudTrail log files stored in Amazon S3">
