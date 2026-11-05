@@ -108,6 +108,14 @@ Terraform was used to provision and manage the AWS security monitoring infrastru
 - Generated a synthetic GuardDuty sample finding.
 - Retrieved and analyzed the finding using AWS CLI.
 
+<h4>GuardDuty Detector Configuration Verification</h4>
+<p>This screenshot shows the output of <code>aws guardduty get-detector</code>, confirming that the GuardDuty detector is enabled and displaying the configured data sources used for AWS threat detection and security monitoring.</p>
+
+<p align="center">
+  <img src="images/guardduty-detector-verification.png" width="750" alt="GuardDuty detector configuration verified using AWS CLI">
+</p>
+
+
 ### 3. Security Group Assessment
 
 - Inspected the default EC2 security group.
